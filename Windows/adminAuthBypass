@@ -1,0 +1,6 @@
+// Installation of programs with no admin authentication
+
+cmd /min /C "set __COMPAT_LAYER=RUNASINVOKER && start "" "%1"
+
+
+// drag and drop the installer over the main.bat
